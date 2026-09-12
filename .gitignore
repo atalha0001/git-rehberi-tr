@@ -1,0 +1,74 @@
+# İşletim Sistemi Çöpleri
+.DS_Store
+Thumbs.db
+*~
+*.swp
+
+# IDE ve Editör Dosyaları
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# C/C++ Derleme Çıktıları
+*.o
+*.obj
+*.out
+*.elf
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+build/
+bin/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+compile_commands.json
+
+# Python Önbellek ve Sanal Ortamlar
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# ROS 2 ve Workspace Dosyaları
+log/
+install/
+build/
+*.log
+
+# Gömülü Sistem ve Donanım Çıktıları
+*.hex
+*.bin
+*.map
+.pio/
+
+# Konteyner ve Gizli Veriler
+.dockerignore
+secrets.json
+config_local.yaml
+*.pem
+*.key
+
+# Rust ve Cargo Çıktıları
+target/
+**/*.rs.bk
+Cargo.lock.bk
+
+# ArduPilot, MAVLink ve Gazebo Logları
+*.tlog
+*.rlog
+*.bin
+*.bag
+
+# Go Derleme Çıktıları
+*.test
+*.out

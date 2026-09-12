@@ -1,0 +1,13 @@
+name: Dokuman Kalite Kontrolu (Linter)
+
+on: [push, pull_request]
+
+jobs:
+  lint:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Kodu Cek (Checkout)
+        uses: actions/checkout@v3
+
+      - name: Markdown Linter Calistir
+        uses: DavidAnson/markdownlint-cli2-action@v12
